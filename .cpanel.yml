@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pselierc/public_html/testing-dummy
+    - /bin/cp * $DEPLOYPATH
+    
